@@ -1,0 +1,154 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+/* Header styles */
+header {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo img {
+  width: 60px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Add this line to center the navigation */
+  padding: 0 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  text-align: center;
+  margin: 0; /* Add this line to remove default margin */
+  padding: 0; /* Add this line to remove default padding */
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1em;
+  text-align: center;
+}
+
+nav ul li a:hover {
+  color: #555;
+}
+
+main {
+  display: flex;
+  margin-top: 15px;
+}
+
+
+
+.image {
+  width: 100%;
+}
+
+article {
+  text-align: justify;
+}
+
+article h1
+{
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+article p{
+  text-align: justify;
+  text-justify: inter-word;
+  margin-bottom: 5px;
+}
+
+#home p
+{
+  text-align: center;
+}
+
+#hobi ul
+{
+  list-style-type: disc;
+}
+
+#kemampuan-teknis ul
+{
+  list-style-type: disc; 
+}
+
+.box2 article {
+  border: 2px solid #ccc; 
+  border-radius: 5px;
+  padding: 20px; 
+  margin-bottom: 20px; 
+}
+
+#moto-hidup p
+{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.video-container 
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.iframe-container
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.image2
+{
+  width: 50px ;
+}
+
+.image3
+{
+  width: 50px;
+}
+
+footer {
+  text-align: center;
+  background-color: #fff;
+  padding: 20px 0;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
